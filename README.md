@@ -20,16 +20,26 @@ This project is a powerful tool for developers, project managers, and tech enthu
 
 By simply providing a repository URL and your API keys, the application fetches critical data, reads key files, and leverages the **IO Intelligence API** to generate a comprehensive and insightful analysis.
 
+## 📺 Demo
+
+Curious how it works? Watch the demo below:
+
+<p align="center">
+  <a href="https://youtu.be/100wY7tmrnc" target="_blank">
+    <img src="https://img.youtube.com/vi/100wY7tmrnc/0.jpg" alt="Demo Video" width="700">
+  </a>
+</p>
+
 ## ✨ Key Features
 
--   **Dynamic Repo Fetching**: Analyzes any public GitHub repository using its URL.
--   **Deep Contextual Analysis**: Reads the content of important files like `README.md`, `requirements.txt`, and `package.json` to provide a richer context to the AI.
--   **In-Depth AI Insights**: Generates a structured analysis that includes:
-    -   A detailed overview of the project's purpose and target audience.
-    -   A bulleted list of key technical features and capabilities.
-    -   Inferred "getting started" commands for quick setup.
--   **"Bring Your Own Key" (BYOK) Model**: Securely uses your personal API keys for GitHub and IO Intelligence, which are entered in the sidebar and never stored.
--   **Tech Stack Detection**: Automatically identifies the primary languages and technologies used in the repository.
+- **Dynamic Repo Fetching**: Analyzes any public GitHub repository using its URL.
+- **Deep Contextual Analysis**: Reads the content of important files like `README.md`, `requirements.txt`, and `package.json` to provide a richer context to the AI.
+- **In-Depth AI Insights**: Generates a structured analysis that includes:
+  - A detailed overview of the project's purpose and target audience.
+  - A bulleted list of key technical features and capabilities.
+  - Inferred "getting started" commands for quick setup.
+- **"Bring Your Own Key" (BYOK) Model**: Securely uses your personal API keys for GitHub and IO Intelligence, which are entered in the sidebar and never stored.
+- **Tech Stack Detection**: Automatically identifies the primary languages and technologies used in the repository.
 
 ## 📸 Application Screenshot
 
@@ -43,15 +53,15 @@ By simply providing a repository URL and your API keys, the application fetches 
 
 The application follows a simple yet powerful architecture:
 
-1.  **Frontend**: Built with **Streamlit** for a fast, interactive user interface.
-2.  **GitHub API**: Uses the **PyGithub** library to fetch repository data, including metadata and file contents.
-3.  **AI Backend**: Leverages the **IO Intelligence API** and a Llama 3.3 70B model to analyze the collected data and generate structured insights.
+1. **Frontend**: Built with **Streamlit** for a fast, interactive user interface.
+2. **GitHub API**: Uses the **PyGithub** library to fetch repository data, including metadata and file contents.
+3. **AI Backend**: Leverages the **IO Intelligence API** and a Llama 3.3 70B model to analyze the collected data and generate structured insights.
 
 The core technologies are:
--   **Python**
--   **Streamlit**
--   **PyGithub**
--   **IO Intelligence**
+- **Python**
+- **Streamlit**
+- **PyGithub**
+- **IO Intelligence**
 
 ## 🚀 Getting Started
 
@@ -67,13 +77,13 @@ The easiest way to get started is to use the deployed version on Streamlit Commu
 
 If you want to run the application on your own machine, follow these steps:
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/your-username/your-repo-name.git
     cd your-repo-name
     ```
 
-2.  **Create and activate a virtual environment:**
+2. **Create and activate a virtual environment:**
     ```bash
     python -m venv venv
     # On Windows:
@@ -82,12 +92,12 @@ If you want to run the application on your own machine, follow these steps:
     source venv/bin/activate
     ```
 
-3.  **Install the required libraries:**
+3. **Install the required libraries:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Run the Streamlit app:**
+4. **Run the Streamlit app:**
     ```bash
     streamlit run app.py
     ```
@@ -97,13 +107,13 @@ If you want to run the application on your own machine, follow these steps:
 
 The application requires two API keys to function:
 
-1.  **GitHub Personal Access Token**: Needed to interact with the GitHub API and avoid rate limits. You can generate one [here](https://github.com/settings/tokens) with `public_repo` scope.
-2.  **IO Intelligence API Key**: Required for the AI analysis. You can get this from your IO Intelligence dashboard.
+1. **GitHub Personal Access Token**: Needed to interact with the GitHub API and avoid rate limits. You can generate one [here](https://github.com/settings/tokens) with `public_repo` scope.
+2. **IO Intelligence API Key**: Required for the AI analysis. You can get this from your IO Intelligence dashboard.
 
 These keys are entered in the sidebar of the application and are used only for the current session. **They are never stored or saved.**
 
 ---
 
 <p align="center">
-  Made with ❤️ and Python. Congratulations on your project!
+  Made with ❤️ and Python.
 </p>
