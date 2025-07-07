@@ -36,7 +36,7 @@ By simply providing a repository URL and your API keys, the application fetches 
 *This is what the application looks like in action!*
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6ae5a28a-840e-4db8-a1eb-0b4965adf161" alt="Application Screenshot" width="800">
+  <img src="https://github.com/user-attachments/assets/2a88ce6a-3b88-4267-901c-f05871849e28" alt="Application Screenshot" width="800">
 </p>
 
 ## 🛠️ How It Works & Tech Stack
